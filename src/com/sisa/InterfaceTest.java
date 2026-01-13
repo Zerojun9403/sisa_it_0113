@@ -15,6 +15,9 @@ public class InterfaceTest {
          * → 인터페이스 타입으로 구현 객체를 참조하는 다형성 구조
          */
         MenuPan menu = new HongKong();
+        
+        HongKong hk = (HongKong) menu;
+        hk.sushi(); // 
 
         /*
          * 인터페이스에 선언된 메서드 호출
@@ -24,6 +27,10 @@ public class InterfaceTest {
         menu.menu1();      // 메뉴판 출력
         menu.jjamppong();  // 짬뽕 출력
         menu.bokkeumbap(); // 볶음밥 출력
+       
+        
+        
+        
 
     }
 

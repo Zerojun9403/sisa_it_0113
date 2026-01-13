@@ -14,7 +14,7 @@ public class HongKong implements MenuPan {
      * - MenuPan 인터페이스에 선언된 메서드
      * - 메뉴판 전체를 출력하는 기능
      */
-  
+	@Override
     public void menu1() {
         System.out.println("메뉴판 출력");
     }
@@ -24,9 +24,10 @@ public class HongKong implements MenuPan {
      * - MenuPan 인터페이스에 선언된 메서드
      * - 짬뽕 메뉴 출력
      */
+	@Override
     public void jjamppong() {
         System.out.println("짬뽕");
-        초밥();
+        sushi();
     }
 
     /*
@@ -34,13 +35,12 @@ public class HongKong implements MenuPan {
      * - MenuPan 인터페이스에 선언된 메서드
      * - 볶음밥 메뉴 출력
      */
- 
+	@Override
     public void bokkeumbap() {
         System.out.println("볶음밥");
     }
     
-    
-    private void 초밥() {
-    	System.out.println("한입에쏙");
+	public void sushi() {
+    	System.out.println("초밥");
     }
 }
