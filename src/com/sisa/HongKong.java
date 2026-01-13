@@ -26,6 +26,7 @@ public class HongKong implements MenuPan {
      */
     public void jjamppong() {
         System.out.println("짬뽕");
+        초밥();
     }
 
     /*
@@ -37,5 +38,9 @@ public class HongKong implements MenuPan {
     public void bokkeumbap() {
         System.out.println("볶음밥");
     }
-
+    
+    
+    private void 초밥() {
+    	System.out.println("한입에쏙");
+    }
 }
